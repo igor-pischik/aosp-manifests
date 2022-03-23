@@ -72,7 +72,7 @@
   <project path="device/linaro/hikey" revision="refs/tags/android-security-9.0.0_r76" name="device/linaro/hikey" groups="device,hikey,pdk" />
   <project path="device/linaro/hikey-kernel" revision="refs/tags/android-security-9.0.0_r76" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
   <project path="device/sample" revision="refs/tags/android-security-9.0.0_r76" name="device/sample" groups="pdk" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
+  <project path="external/aac" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
   <project path="external/abi-dumper" name="platform/external/abi-dumper" groups="pdk" />
   <project path="external/adhd" name="platform/external/adhd" groups="pdk" />
@@ -92,7 +92,7 @@
   <project path="external/avb" name="platform/external/avb" groups="pdk" />
   <project path="external/bart" name="platform/external/bart" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
+  <project path="external/boringssl" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -100,7 +100,7 @@
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
   <project path="external/capstone" name="platform/external/capstone" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
+  <project path="external/chromium-libpac" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
@@ -112,13 +112,13 @@
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" />
   <project path="external/curl" name="platform/external/curl" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" />
-  <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
+  <project path="external/deqp" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" />
   <project path="external/devlib" name="platform/external/devlib" groups="pdk" />
-  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
+  <project path="external/dexmaker" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/dexmaker" groups="pdk" />
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" groups="pdk" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
-  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
+  <project path="external/dng_sdk" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/dng_sdk" groups="pdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="pdk" />
@@ -140,7 +140,7 @@
   <project path="external/fec" name="platform/external/fec" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
-  <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" />
+  <project path="external/flatbuffers" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/flatbuffers" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" />
@@ -159,16 +159,16 @@
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
+  <project path="external/gptfdisk" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/gptfdisk" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/honggfuzz" name="platform/external/honggfuzz" groups="pdk" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" />
-  <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" />
-  <project path="external/ims" name="platform/external/ims" groups="pdk" />
+  <project path="external/icu" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/icu" groups="pdk" />
+  <project path="external/ImageMagick" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/ImageMagick" groups="pdk" />
+  <project path="external/ims" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/ims" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk" />
@@ -195,15 +195,15 @@
   <project path="external/kmod" name="platform/external/kmod" groups="pdk" />
   <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
+  <project path="external/libavc" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libavc" groups="pdk" />
   <project path="external/libbackup" name="platform/external/libbackup" groups="pdk" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" />
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" />
   <project path="external/libconstrainedcrypto" name="platform/external/libconstrainedcrypto" groups="pdk" />
-  <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
+  <project path="external/libcups" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libcxx" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
@@ -211,15 +211,15 @@
   <project path="external/libedit" name="platform/external/libedit" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
-  <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
+  <project path="external/libexif" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libexif" groups="pdk" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
+  <project path="external/libhevc" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libhevc" groups="pdk" />
+  <project path="external/libjpeg-turbo" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" />
-  <project path="external/libmojo" name="platform/external/libmojo" groups="pdk" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
+  <project path="external/libmojo" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libmojo" groups="pdk" />
+  <project path="external/libmpeg2" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" />
   <project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" groups="pdk" />
   <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
@@ -235,18 +235,18 @@
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <project path="external/libvpx" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
-  <project path="external/libxaac" name="platform/external/libxaac" groups="pdk" />
+  <project path="external/libxaac" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/libxaac" groups="pdk" />
   <project path="external/libxcam" name="platform/external/libxcam" groups="pdk" />
   <project path="external/libxkbcommon" name="platform/external/libxkbcommon" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
-  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" />
+  <project path="external/linux-kselftest" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/linux-kselftest" groups="vts,pdk" />
   <project path="external/lisa" name="platform/external/lisa" groups="pdk" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" />
-  <project path="external/ltp" name="platform/external/ltp" groups="vts,pdk" />
+  <project path="external/ltp" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/ltp" groups="vts,pdk" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk" />
@@ -270,10 +270,10 @@
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" />
-  <project path="external/nos/host/android" name="platform/external/nos/host/android" groups="pdk" />
-  <project path="external/nos/host/generic" name="platform/external/nos/host/generic" groups="pdk" />
-  <project path="external/nos/test/system-test-harness" name="platform/external/nos/test/system-test-harness" groups="pdk" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
+  <project path="external/nos/host/android" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/nos/host/android" groups="pdk" />
+  <project path="external/nos/host/generic" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/nos/host/generic" groups="pdk" />
+  <project path="external/nos/test/system-test-harness" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/nos/test/system-test-harness" groups="pdk" />
+  <project path="external/noto-fonts" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" />
@@ -284,16 +284,16 @@
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/perf_data_converter" name="platform/external/perf_data_converter" groups="pdk" />
-  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" />
+  <project path="external/perfetto" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/perfetto" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
-  <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
+  <project path="external/ppp" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/ppp" groups="pdk" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" />
   <project path="external/python/appdirs" name="platform/external/python/appdirs" groups="vts,pdk" />
   <project path="external/python/cachetools" name="platform/external/python/cachetools" groups="vts,pdk" />
-  <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" />
+  <project path="external/python/cpython2" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/python/cpython2" groups="pdk" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" groups="pdk" />
   <project path="external/python/dill" name="platform/external/python/dill" groups="vts,pdk" />
   <project path="external/python/enum" name="platform/external/python/enum" groups="vts,pdk" />
@@ -342,17 +342,17 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
+  <project path="external/sfntly" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/skqp" name="platform/external/skqp" groups="cts" clone-depth="1" />
-  <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" />
+  <project path="external/sl4a" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/sl4a" groups="pdk" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
+  <project path="external/sonivox" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
@@ -375,11 +375,11 @@
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" groups="pdk" />
   <project path="external/trappy" name="platform/external/trappy" groups="pdk" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
+  <project path="external/tremolo" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/tremolo" groups="pdk" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" />
-  <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" />
+  <project path="external/v4l2_codec2" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/v4l2_codec2" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" />
@@ -389,7 +389,7 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" />
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
   <project path="external/wayland" name="platform/external/wayland" groups="pdk" />
-  <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" />
+  <project path="external/wayland-protocols" revision="refs/tags/android-security-9.0.0_r76" name="platform/external/wayland-protocols" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" groups="pdk" />
