@@ -440,10 +440,10 @@
   <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
-  <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
-  <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
-  <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
-  <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
+  <project path="hardware/google/apf" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/google/apf" groups="pdk" />
+  <project path="hardware/google/easel" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/google/easel" groups="pdk,easel" />
+  <project path="hardware/google/interfaces" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/google/interfaces" groups="pdk" />
+  <project path="hardware/google/av" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/google/av" groups="pdk" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" />
@@ -464,28 +464,28 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
-  <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
-  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk-qcom,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk-qcom" />
-  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk-qcom" />
-  <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996,pdk-qcom" />
-  <project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998,pdk-qcom" />
-  <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26,pdk-qcom" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk-qcom" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk-qcom" />
-  <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/nxp/secure_element" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/nxp/secure_element" groups="pdk" />
+  <project path="hardware/qcom/audio" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
+  <project path="hardware/qcom/bootctrl" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
+  <project path="hardware/qcom/bt" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/camera" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" />
+  <project path="hardware/qcom/data/ipacfg-mgr" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/display" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/display" groups="pdk-qcom,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" />
+  <project path="hardware/qcom/keymaster" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
+  <project path="hardware/qcom/media" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/msm8960" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk-qcom" />
+  <project path="hardware/qcom/msm8994" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk-qcom" />
+  <project path="hardware/qcom/msm8996" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996,pdk-qcom" />
+  <project path="hardware/qcom/msm8998" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998,pdk-qcom" />
+  <project path="hardware/qcom/msm8x09" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
+  <project path="hardware/qcom/msm8x26" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26,pdk-qcom" />
+  <project path="hardware/qcom/msm8x27" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk-qcom" />
+  <project path="hardware/qcom/msm8x84" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk-qcom" />
+  <project path="hardware/qcom/neuralnetworks/hvxservice" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" />
+  <project path="hardware/qcom/power" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/wlan" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
+  <project path="hardware/ril" revision="refs/tags/android-security-9.0.0_r76" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" revision="refs/tags/android-security-9.0.0_r76" name="platform/libcore" groups="pdk" />
